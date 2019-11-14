@@ -1,9 +1,9 @@
 export let foo = 'foo'
 
 setTimeout(() => {
-  foo = foo + 'bar'
+  foo = foo + 'bar' // works
 }, 100)
 
 setTimeout(() => {
-  foo += 'baz'
+  foo += 'baz' // does not work
 }, 300)
