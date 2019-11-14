@@ -1,0 +1,14 @@
+{
+  "name": "repro-systemjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "rollup": "^1.27.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "systemjs": "^6.1.4"
+  },
+  "scripts": {
+    "start": "rollup -c -w"
+  }
+}
