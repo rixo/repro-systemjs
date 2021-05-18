@@ -5,7 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "rollup": "^1.27.0",
-    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-serve": "^1.0.2",
     "systemjs": "^6.1.4"
   },
   "scripts": {
